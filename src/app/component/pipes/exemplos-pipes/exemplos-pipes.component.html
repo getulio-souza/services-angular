@@ -1,0 +1,9 @@
+<h5>exemplos de pipes</h5>
+
+<div style="display: flex; flex-direction: column;">
+    <span>titulo: {{livro.title | uppercase }}</span>
+    <span>preco: {{livro.price | currency:'BRL'}}</span>
+    <span>paginas: {{livro.pages | number}}</span>
+    <span>data: {{livro.date | date: 'dd/MM/yyyy'}}</span>
+    <span>avaliacao: {{livro.rating | number}}</span>
+</div>

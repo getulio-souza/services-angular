@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CursosService } from '../cursos.service';
 import { CommonModule } from '@angular/common';
+import { ReceberCursoCriadoComponent } from "../receber-curso-criado/receber-curso-criado.component";
+// import { ReceberCursoCriadoComponent } from '../receber-curso-criado/receber-curso-criado.component';
 
 @Component({
   selector: 'criar-curso',
-  imports: [CommonModule],
+  imports: [CommonModule, ReceberCursoCriadoComponent],
   templateUrl: './criar-curso.component.html',
   styleUrl: './criar-curso.component.scss',
 })
